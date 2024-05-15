@@ -1,0 +1,222 @@
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lilita One', sans-serif;}
+    html{
+        font-size: 20px;
+    }
+
+    nav {
+        background-color: white;
+        padding: 10px;
+        display: flex;   
+        align-items: center;    
+    height: 10vh;
+    width: 100%;
+    }
+    
+    nav ul{ list-style: none;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+      height: auto;    
+      width: 100%;
+     
+    }
+    nav ul li a{
+        color: rgb(0, 100, 162);
+        text-decoration: none;
+        font-size: 0.9rem;
+        margin-right: 15px;
+       
+    }
+    nav img{
+        max-height: 7vh;
+        justify-content: start;
+    }
+    .barra2{ background-color: black;
+        padding: 10px;
+        display: flex;   
+        align-items: center;    
+    height: 5vh;
+    width: 100vw;}
+    .barra2 ul{ list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      height: auto;    
+      width: 100%;
+     
+    }
+    .barra2 ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        margin-right: 15px;}
+
+    body{ background-color: rgb(0, 100, 162);}
+
+    .wpp{        position: fixed;
+
+        top: 70vh;
+        left: 5vw;
+    }
+    .wpp img{ width: 70px;}
+    h1{ color: white;
+    font-size: 1.5rem;}
+    iframe{ width: 80vw;
+    height: 40vh;}
+    .contacto{ display: flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 5vh;
+gap: 2vh;
+height: 55vh;
+margin-bottom: 10vh;}
+footer{ background-color: black;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2vh;   
+color: white;}
+.nombre{
+    font-size: 0.7rem;
+    color: white;
+}
+footer h2{ font-size: 1rem;
+margin-top: 1vh;}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  
+   
+}
+.r1 img {
+    width: 30px;
+   
+}
+.redes ul li a {text-decoration: none;}
+.redes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+   padding: 20px;
+   text-align: center;
+   color: white;
+   gap: 20px;
+   height: 70vh;
+
+}
+main h1{ font-size: 1.7rem;
+      
+}
+main p{
+    font-size: 1.2rem;
+}
+
+ .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 10vh;
+    color: rgb(0, 100, 162) ;
+    background-color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 2vh;
+    border: 5px black solid;
+ }
+ .active{ border-bottom: 2px solid rgb(0, 100, 162);}
+ .impgs{
+   width: 90vw;
+   
+    
+ }
+ .produ{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+  
+ }
+ .imgs img{
+    width: 300px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+
+ }
+
+ @media (max-width:992px){
+    .produ{ height: 700vh;}
+ }
+ @media (min-width:768px){
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 10vh;
+        color: rgb(0, 100, 162) ;
+        background-color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+        text-align: center;
+        padding: 2vh;
+        border: 5px black solid;
+         }
+         h1{ color: white;
+            font-size: 2rem;}
+            main h1{ font-size: 2.5rem;     
+            }
+            .produ {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                height: auto; 
+              }
+              
+              .imgs {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                max-width: 100%;
+              }
+              
+              .imgs img {
+                width: 300px; 
+                height: auto; 
+                max-width: 100%; 
+            
+            margin: 10px;
+              }
+              footer h2{ font-size: 1.5rem;
+                margin-top: 1vh;}
+                .r1 img {
+                    width: 40px;
+                   
+                } 
+                .wpp img{ width: 100px;}
+        }
+    
